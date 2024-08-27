@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input[type='file'] {
+  overflow: hidden;
+  color: transparent;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tailwind-ellipsis {
+  overflow: visible !important;
+  color: #333 !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+/* .Mui-selected{
+  background-color:"black";
+} */
+
+/* Apply background color to the date picker container */
+.react-datepicker {
+  background-color: #f0f0f0;
+}
+
+/* Apply background color to the selected date */
+.react-datepicker__day--selected {
+  background-color: #4caf50;
+  color: black;
+}
+
+/* Apply background color to the hover effect on days */
+.react-datepicker__day:hover {
+  background-color: #80cbc4;
+  color:white;
+}
+
+/* Apply background color to the header of the date picker  
+----- this is what i am going to change for july
+*/
+.react-datepicker__header {   
+  background-color: #d0e0e3;
+}
+
+/* Apply background color to the month dropdown */
+.react-datepicker__month-dropdown-container {
+  background-color: #00796b;
+  color: black;
+}
+
+/* Apply background color to the year dropdown */
+.react-datepicker__year-dropdown-container {
+  background-color: #00796b;
+  color: black;
+}
